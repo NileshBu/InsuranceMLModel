@@ -18,6 +18,8 @@ FOLDER INTRODUCTION:
 
 BASIC GUIDE TO USE 
 Download or Clone all the Files available above in one same folder(ITS IS VERY IMPORTANT THAT ALL THE FILES ARE IN SAME FOLDER).
+
+
 1.) If you want to check the data cleaning,data preparation, and ML Model Training Codebase, then please open dataMiningAssignment.py file in any of the your desirable tool. I used Anaconda(Spyder) and run it. Running it will create the get the unprocessed and uncleaned dataset, then will clean and prepare the dataset, and the ML model will be trained and saved. 
 
 2.) If you want to get the trained ML model exposed as the REST API , then  please open dataMiningAssignment.py  file in any of the your desirable tool. I used Anaconda(Spyder). Run this file and the REST API will be exposed at local port 5000. And the Endpoint can be accessed via Postman using http://localhost:5000/api/ link and sending the data in the body . The format of JSON  data to be sent in the body is as mentioned belows:

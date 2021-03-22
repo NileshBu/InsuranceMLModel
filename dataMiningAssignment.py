@@ -16,8 +16,8 @@ import pickle
 
 
 
-test_data = pd.read_csv("/Users/nilesh/Downloads/DM/carInsurance_test.csv")
-train_data = pd.read_csv("/Users/nilesh/Downloads/DM/carInsurance_train.csv")
+test_data = pd.read_csv("carInsurance_test.csv")
+train_data = pd.read_csv("carInsurance_train.csv")
 
 print("\n The Detail understanding of Features and Number of Samples within Dataset")
 print("\n The training data has {0} samples and {1} features.".format(train_data.shape[0], train_data.shape[1]-1))
